@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salvatore Santeramo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+
+
+
+
+  <!-- INTRO INTERATTIVA -->
+  <div id="intro">
+    <div class="intro-content">
+      <h1>SALVATORE SANTERAMO</h1>
+      <p>Premi per entrare</p>
+      <button id="enter-button">ENTRA</button>
+    </div>
+  </div>
+
+  <!-- MUSICA -->
+  <audio id="music" src="assets/audio/musica.mp3"></audio>
+
+  <!-- EFFETTO CLIC -->
+  <audio id="click-sound" src="assets/audio/click.wav"></audio>
+
+  <!-- VIDEO SFONDO -->
+  <video autoplay loop muted playsinline id="background-video">
+    <source src="assets/video/video.mp4" type="video/mp4" />
+  </video>
+
+    <!-- LOGO -->
+<img src="assets/images/logo1.png" class="logo-overlay" alt="logo 1">
+<img src="assets/images/logo2.png" class="logo-overlay" alt="logo 2">
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Portfolio di Salvatore Santeramo </div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Chi sono </a></li>
+      <li><a href="#services">Ringraziamenti</a></li>
+      <li><a href="#contact">Studi e Attestati</a></li>
+      <li><a href="#archivio">Archivio visivo</a></li>
+    
+      <li><a href="progetti.html">Archivio progetti</a></li>
+
+      <li class="close-btn" id="close-btn">&times;</li>
+    </ul>
+  </nav>
+
+  <!-- LIGHTBOX MODERNA -->
+<div id="lightbox" class="lightbox hidden">
+  <span class="close-lightbox">&times;</span>
+  <img class="lightbox-img" src="" alt="immagine ingrandita">
+</div>
+
+
+  <!-- SEZIONI -->
+  <section id="home" class="section hidden">
+    <h1>Benvenuto nel Portale di SANTERAMO SALVATORE</h1>
+
+     <!-- Immagine modificata -->
+    <img src="assets/images/foto.jpeg" class="img-about" alt="Foto di Salvatore Santeramo" loading="lazy">
+
+
+
+    <p>Un viaggio nel mondo dell'intelligenza artificiale della tecnologia futuristica</p>
+    <p>Grazie all'intelligenza artificiale e agli studi , programmare e costruire siti web è diventato più facile e intuitivo.</p>
+    <p>Scopri come l'IA sta rivoluzionando il nostro modo di vivere e lavorare.</p>
+  </section>
+           <!-- SEZIONE CHI SONO -->
+  <section id="about" class="section hidden">
+    <h2>Chi sono</h2>
+    <p>Sono un appassionato di informatica mi definisco un autodidatta </p>
+    <p>Ho iniziato a programmare da piccolo e ho continuato a studiare e a migliorare le mie competenze nel corso degli anni.</p>
+    <p>La mia passione per la tecnologia mi ha portato a esplorare diversi ambiti, dalla programmazione web allo sviluppo di applicazioni mobili.</p>
+    <p>Credo che la tecnologia possa migliorare la vita delle persone e sono sempre alla ricerca di nuove sfide e opportunità per imparare e crescere.</p>
+    <p>Mi piace lavorare su progetti innovativi e collaborare con persone che condividono la mia passione per la tecnologia.</p>
+    <p>La mia missione è creare soluzioni tecnologiche che possano semplificare la vita quotidiana e rendere il mondo un posto migliore.</p>
+    <p>Grazie all'intelligenza artificiale, programmare e costruire siti web è diventato più facile e intuitivo .</p>
+    <p>Mi chiamo Salvatore Santeramo, sono un Tecnico Programmatore autodidatta in informatica ,
+      ho una passione innata per la tecnologia e lo sviluppo software.</p>
+       
+  </section>
+          <!-- SEZIONE RINGRAZIAMENTI -->
+  <section id="services" class="section hidden">
+    <h2>Ringraziamenti</h2>
+    <p>Ringrazio i dirigenti del corso  I.F.T.S ,FULVIO FILANNINO della scuola di Formazione LEADER .</p>
+    <p>Un ringraziamento speciale va ai miei compagni di classe per il loro supporto e collaborazione durante il percorso di studi.</p>
+    <p>Inoltre, desidero esprimere la mia gratitudine a tutti i miei insegnanti,</p>
+    <p>in particolare ai miei docenti di Programmazione e sviluppo software per avermi guidato in questo percorso di apprendimento.</p>
+    <p>La loro pazienza, dedizione e passione per l'insegnamento hanno avuto un impatto significativo sulla mia formazione e crescita professionale.</p>
+    <p>Grazie a tutti .</p>
+    <p>Ringrazio I professori , GIUSEPPE CHIUMEO , VINCENZO SANSONNE , MAURIZIO FONTANA ,
+     FERRO GIOVANNA , MATERA ALESSIA , MARIA ANTONELLA VITRANI , FULVIO FILANNINO .
+    </p>
+    <p>Un ringraziamento speciale va alla mia collega SIMONA PEPPINO </p>
+    <p>per il supporto e la collaborazione durante il percorso di studi.</p>
+    </section>
+  <!-- SEZIONI ARCHIVIO VISIVO E PROGETTI -->
+  <section id="archivio" class="section hidden">
+  <h2>Archivio Visivo</h2>
+  <div class="images">
+    <img src="assets/images/amici.jpeg" alt="amici 4" loading="lazy">
+    <img src="assets/images/chiumeo.jpeg" alt="chiumeo 3"loading="lazy">        
+    <img src="assets/images/gruppo.jpeg" alt="gruppo 2" loading="lazy">
+    <img src="assets/images/foto1.jpeg" alt="foto1 1" loading="lazy">
+    <img src="assets/images/maurizio.jpeg" alt="maurizio 5" loading="lazy">
+    <img src="assets/images/sansonne.jpeg" alt="sansonne 6" loading="lazy">
+  </div>
+</section>
+        <!-- SEZIONE PROGETTI -->  
+<section id="progetti" class="section hidden">
+  <h2>Archivio Progetti : a breve le foto</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="assets/projects/progetto1.jpg" alt="Progetto 1">
+      <h3>Progetto 1</h3>
+      <p>Descrizione breve del progetto. Tecnologie: HTML, CSS, JS</p>
+    </div>
+    
+    <div class="project-card">
+      <img src="assets/projects/progetto2.jpg" alt="Progetto 2">
+      <h3>Progetto 2</h3>
+      <p>App mobile realizzata con Flutter e Firebase.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/projects/progetto3.jpg" alt="Progetto 3">
+      <h3>Progetto 3</h3>
+      <p>Sito web responsive con animazioni interattive.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/projects/progetto4.jpg" alt="Progetto 4">
+      <h3>Progetto 4</h3>
+      <p>Applicazione di intelligenza artificiale per l'analisi dei dati.</p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/projects/progetto5.jpg" alt="Progetto 5">
+      <h3>Progetto 5</h3>
+      <p>progetti con Visual Basic.</p>
+
+    </div>
+    <div class="project-card">
+      <img src="assets/projects/progetto6.jpg" alt="Progetto 6">
+      <h3>Progetto 6</h3>
+      <p>Progetto Payton</p>
+    </div>
+
+
+    <div class="project-card">
+      <img src="assets/projects/progetto7.jpg" alt="Progetto 7">
+      <h3>Progetto 7</h3>
+      <p>Progetto , Creazione e Amministrazione di un server claud all'interno di una rete con linux</p>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/projects/progetto8.jpg" alt="Progetto 8">
+      <h3>Progetto 8</h3>
+      <p>Progetto con Angular</p>
+    </div>
+
+</section>
+
+  <!-- SEZIONE CONTATTI E STUDI -->
+  <section id="studies" class="section hidden">
+    <h2>Contatti</h2>
+    <p>Per contattarmi, puoi inviarmi un'email a:  o_ceansasa@hotmail.it <a href="mailto:"></a>
+      
+</section>
+
+  <section id="contact" class="section hidden">
+    <h2>Studi e Attestati</h2>
+    <p>Tecnico Programmatore presso la scuola di Formazione I.S.I. "Istituto Servizi Informatici".</p>
+    <p>Ho conseguito un attestato di google Social madia menager</p>
+    <p>Ho conseguito un attestato di google Digital marketing</p>
+    <p>In corso...... Formazione Tecnica Superiore I.F.T.S "Tecniche per la progettazione di Applicazioni Informatiche</p>
+  </section>
+
+  
+  <!-- COOKIE BANNER -->
+  <div id="cookie-banner" style="display: none;">
+  <p>Questo sito non utilizza cookie di profilazione, ma solo tecnici per il corretto funzionamento. <a href="#cookie-policy">Leggi la Cookie Policy</a>.</p>
+  <button id="accept-cookies">OK</button>
+</div>
+  
+<script src="script.js"></script>
+ 
+<section id="cookie-policy" class="section hidden">
+  <h2>Cookie Policy</h2>
+  <p>Questo sito utilizza solo cookie tecnici, necessari al funzionamento del sito e per migliorare la tua esperienza di navigazione. Non vengono utilizzati cookie di profilazione né cookie di terze parti.</p>
+  <p>I cookie tecnici non raccolgono informazioni personali e non richiedono il consenso preventivo.</p>
+  <p>Continuando a navigare su questo sito, accetti l’utilizzo di questi cookie.</p>
+</section>
+
+
+</body>
+</html>
